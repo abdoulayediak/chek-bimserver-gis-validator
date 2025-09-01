@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHEK GIS Validator - BIMserver Connector</title>
+    <link rel="stylesheet" href="chekStyle.css">
+</head>
+
+<body>
+    <!-- <div class="header">
+        <img src="../static/images/logo1.png" alt="Logo 1" class="logo">
+        <a href="https://3d.bk.tudelft.nl/"><img src="../static/images/logo2.png" alt="Logo 2" class="logo"></a> 
+    </div> -->
+    <div id="popupHeader">
+        Please allow the pop-up, authorize the connection to BIMserver.center , and close the pop-up window afterward.
+    </div>
+
+    <div id="loginModal" class="loginModal">
+        <div class="loginCredBox">
+            <label>
+                Client ID:
+                <input id="clientIdTxt" class="loginCredBoxLabelInput" type="text" name="client_id"
+                    autocomplete="username">
+            </label>
+            <label>
+                Client Secret:
+                <input id="clientSecretTxt" class="loginCredBoxLabelInput" type="password" name="client_secret"
+                    autocomplete="current-password">
+            </label>
+            <div class="credLoginBtnBox">
+                <input class="credLoginBtn" type="button" value="OK" id="credOkBtn">
+                <input class="credLoginBtn" type="button" value="Cancel" id="credCancelBtn">
+            </div>
+        </div>
+    </div>
+
+    <div class="ui">
+        <div class="commandPanel">
+            <div class="loginBox">
+                <!-- <h1>Login</h1> -->
+                <input id="loginStatus" type="text" value="Logged OUT" disabled readonly>
+                <input id="loginBtn" type="button" value="Login">
+            </div>
+            <div class="container">
+
+                <div class="menuSubDivRow">
+                    <label>Project</label>
+                    <select class="containerSelect" id="projectList"></select>
+                    <!-- <input id="updateProjListBtn" class="refreshBtnImage" type="image" src="media/refresh.png"> -->
+                </div>
+
+                <div class="menuSubDivRow">
+                    <label>Contribution</label>
+                    <select class="containerSelect" id="contributionList"></select>
+                    <!-- <div class="contribContainer"></div> -->
+                </div>
+
+                <div class="menuSubDivRow">
+                    <label for="docSelect">Document</label><br>
+                    <select class="containerSelect" id="docSelect"></select>
+                </div>
+
+                <div class="menuSubDiv">
+                    <label for="validationProfileBox"><input type="checkbox" id="validationProfileBox"> Validation
+                        Profile</label>
+                    <select class="profileSelect" id="validationProfileSelect" disabled>
+                        <option value="ogc.chekdbp.profiles.common.buildings-present">Buildings present</option>
+                        <option value="ogc.chekdbp.profiles.common.dummy">Dummy profile</option>
+                        <option value="ogc.chekdbp.profiles.common.green-public-spaces-present">Green public spaces
+                            present</option>
+                        <option value="ogc.chekdbp.profiles.common.roads-present">Roads present</option>
+                        <option value="ogc.chekdbp.profiles.czechia.prague">Prague profile for CHEK</option>
+                        <option value="ogc.chekdbp.profiles.italy.ascoli-piceno">Ascoli Piceno profile for CHEK</option>
+                        <option value="ogc.chekdbp.profiles.portugal.gaia">Vila Nova de Gaia profile for CHEK</option>
+                        <option value="ogc.chekdbp.profiles.portugal.lisbon">Lisbon profile for CHEK</option>
+                    </select>
+                </div>
+                <!-- <input id="validateFileBtn" type="button" value="Validate Selected File(s)"> -->
+                <div class="btnGroup">
+                    <button id="validateFileBtn" class="validateFileBtn">
+                        <div id="loader" class="loader"></div>
+                        <div id="validateFileBtnTxt">Validate</div>
+                    </button>
+                    <input id="saveValidationResBtn" class="resBtn" type="button" value="Save Results" disabled>
+                    <!-- <input id="viewModelBtn" class="saveValidationResBtn" type="button" value="View Model"> -->
+                    <input id="updateProjListBtn" class="resBtn" type="button" value="Refresh">
+                </div>
+                <!-- <textarea id="validationResJson"></textarea> -->
+            </div>
+
+            <div class="reportZone">
+                <div id="reportZoneHeader" class="reportZoneHeader">
+                    <label id="reportZoneHeaderTxt" class="reportValidityLabel">No report loaded...</label>
+                </div>
+
+
+                <button id="shaclReportBtn" class="reportBtn">
+                    <div class="reportBtnMain">
+                        <span id="shaclReportIndic" class="reportValidityIndic"></span>
+                        <label id="shaclReportBtnLabel" class="reportBtnLabel">SHACL (data completeness)</label>
+                    </div>
+                    <span id="shaclReportBtnArrow" class="reportBtnArrow">v</span>
+                </button>
+                <div id="shaclReportTxtZone" class="shaclReportTxtZone wrapped">
+                    <ul id="shaclReportTxt" class="shaclReportTxt">
+                    </ul>
+                </div>
+
+
+                <button id="val3dityReportBtn" class="reportBtn">
+                    <div class="reportBtnMain">
+                        <span id="val3dityReportIndic" class="reportValidityIndic"></span>
+                        <label id="val3dityReportBtnLabel" class="reportBtnLabel">val3dity (geometry)</label>
+                    </div>
+                    <span id="val3dityReportBtnArrow" class="reportBtnArrow">v</span>
+                </button>
+                <div id="val3dityViewerPanel" class="val3dityViewerPanel wrapped">
+                    <iframe class="viewerFrame" id="reportViewerFrame" width="100%"
+                        src="viewer/report_browser/index.html"></iframe>
+                </div>
+            </div>
+            <!-- <div class="container reportViewer">
+            </div> -->
+        </div>
+
+        <div class="viewerPanel">
+            <iframe class="viewerFrame" id="modelViewerFrame" width="100%" height="100%"
+                src="viewer/modelViewer/index.html"></iframe>
+        </div>
+    </div>
+
+    <form id="upload-form" action="/upload" method="POST" enctype="multipart/form-data" style="display: none;">
+        <input type="file" name="file" id="file-input">
+    </form>
+
+    <script type="module" src="chek.js"></script>
+
+</body>
+
+</html>

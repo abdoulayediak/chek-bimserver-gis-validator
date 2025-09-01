@@ -1,0 +1,1788 @@
+{
+	"all_errors": [
+	  102,
+	  104,
+	  906
+	],
+	"dataset_errors": [],
+	"features": [
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_00b1e7b2-0435-39bf-a8af-d8e3afebba22",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_08536d3f-3dbe-3d25-a082-42fb3360f9d3",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_0c22538f-51e2-3ded-bcd4-1fe11f2ad66a",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_1",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 2,
+			"numbervertices": 34,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_10",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 2,
+			"numbervertices": 34,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_10242573-4ede-3440-bb42-5372235dfd36",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_11",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 102,
+				"description": "CONSECUTIVE_POINTS_SAME",
+				"id": "0",
+				"info": "",
+				"type": "Error"
+			  },
+			  {
+				"code": 102,
+				"description": "CONSECUTIVE_POINTS_SAME",
+				"id": "3",
+				"info": "",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 4,
+			"numbervertices": 78,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_12",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  },
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "1",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 8,
+			"numbervertices": 91,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_13",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 49,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_14",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 5,
+			"numbervertices": 105,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_15",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 32,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_16",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 102,
+				"description": "CONSECUTIVE_POINTS_SAME",
+				"id": "0",
+				"info": "",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 5,
+			"numbervertices": 97,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_17",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 6,
+			"numbervertices": 95,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_18",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 2,
+			"numbervertices": 27,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_19",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 26,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_1e9a25a2-064b-3607-b4e5-098d591661b4",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_2",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 1,
+			"numbervertices": 85,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_20",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 17,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_21",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 21,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_22",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 25,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_23",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  },
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "1",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 15,
+			"numbervertices": 226,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_24",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 5,
+			"numbervertices": 30,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_244c0e6d-9b97-3333-b16c-0e4494acf16c",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_25",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 4,
+			"numbervertices": 52,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_26",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 2,
+			"numbervertices": 26,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_27",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 27,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_28",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 13,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_29",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 1,
+			"numbervertices": 28,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_2bb01695-be23-3407-b286-b6a9fa8fe5bf",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_2d6f6c01-d31e-3b2f-9be1-bb1672bb92e9",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_3",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 2,
+			"numbervertices": 39,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_30",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 2,
+			"numbervertices": 20,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_32",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 1,
+			"numbervertices": 20,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_3262e4af-a22e-3aaf-9ecc-6b7c98151743",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_33",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 2,
+			"numbervertices": 76,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_34",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "1",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 23,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_35",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "1",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  },
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "6",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 11,
+			"numbervertices": 182,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_36",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "4",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 7,
+			"numbervertices": 44,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_37",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "2",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 13,
+			"numbervertices": 144,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_38",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 2,
+			"numbervertices": 81,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_39",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 1,
+			"numbervertices": 9,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_4",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 20,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_40",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "5",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  },
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "14",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 23,
+			"numbervertices": 382,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_41",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 2,
+			"numbervertices": 72,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_42",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 2,
+			"numbervertices": 23,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_43",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 21,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_44",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 20,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_44da9ec4-f706-35ef-9958-fd9461f0abfb",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_45",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 1,
+			"numbervertices": 8,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_46",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 1,
+			"numbervertices": 18,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_47",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 6,
+			"numbervertices": 70,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_48",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 9,
+			"numbervertices": 131,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_4815da61-3442-342d-bbaf-684137cf4863",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_49",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 4,
+			"numbervertices": 14,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_5",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 30,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_50",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 4,
+			"numbervertices": 47,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_51",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 5,
+			"numbervertices": 46,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_511d158d-7872-3d65-af71-70c073cce265",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_519dfd7c-4c84-30dc-af26-ccb13ffe82c1",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_52",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 4,
+			"numbervertices": 27,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [],
+		"id": "ID_53",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  },
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "1",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  },
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "8",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 14,
+			"numbervertices": 241,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_54",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  },
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "2",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  },
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "15",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 21,
+			"numbervertices": 182,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_55db4c3c-98ac-3844-b3cd-77e196353927",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_56",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 1,
+			"numbervertices": 5,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_57",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 1,
+			"numbervertices": 75,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_5fdc0dae-152a-3c7b-830e-677126bf89b7",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_6",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 1,
+			"numbervertices": 14,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_6685eaf3-b3bf-3e62-9186-fcfca47782a1",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_70e3cbc8-a2f2-382a-8450-c8d2b7293535",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_74c385c1-27a9-3aa2-8fd4-ca3a86fcd40d",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_7624c4f1-3a00-3bb4-a0a6-eb560933dbad",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_77c54643-7407-3f9d-aa24-5d450b2a30f6",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_7fc95821-07ed-3424-be5a-5de6565f114e",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_8",
+		"primitives": [
+		  {
+			"errors": [
+			  {
+				"code": 104,
+				"description": "RING_SELF_INTERSECTION",
+				"id": "0",
+				"info": "ring self-intersects or is collapsed to a line",
+				"type": "Error"
+			  }
+			],
+			"id": "0",
+			"numberfaces": 3,
+			"numbervertices": 52,
+			"type": "MultiSurface",
+			"validity": false
+		  }
+		],
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_81f8e767-39d4-3341-9b8c-6e19f6d555e8",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_827e0c38-a38a-3d6e-ae84-c2b39fc757b2",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_8617f2c9-3868-3bb1-9f3c-8ebdf73a61fb",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_89d87196-a398-3ab8-8318-63c6c1e388ac",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [],
+		"id": "ID_9",
+		"primitives": [
+		  {
+			"id": "0",
+			"numberfaces": 4,
+			"numbervertices": 54,
+			"type": "MultiSurface",
+			"validity": true
+		  }
+		],
+		"type": "Road",
+		"validity": true
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_90ef9f1f-b0c4-3feb-a90d-b38edb1c579a",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_9510fbb3-35f2-32cd-808f-04c7ac820193",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_9c02227b-275f-32e5-a3e4-5f071fc22fa1",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_a0cc239f-50f1-3017-aa3a-fad2c7865016",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_a13dbaa5-446d-3f86-aa6e-91c1c04f4981",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_a261f22c-113e-3536-a1e3-d5cae2a3bcd5",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_a34782fe-f80e-315e-91ae-cbf1c490fed4",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_a40190c5-45be-373a-a0dc-722d15b92c84",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_a4508e03-058b-385a-bbba-1c7afb4a5a95",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_a8c40e64-a88a-31f4-82e7-865d08b4aeef",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_af7d4ae5-aaf7-368c-98e2-85124d2c260d",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_d45f81e7-7aad-324b-88dc-4d9a96dc1d14",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_d97e3f74-d30e-36c1-ad46-dac0f5de055f",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_df452a6e-62bc-3ca4-9b67-db11ff0bc8dd",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_e66d53bb-bbc6-3873-ba85-f7642ab76ebc",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_e6f10581-b841-354c-b851-8bb0ee2bd44f",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_e8bb2615-7f35-3cf1-9ff4-a36f71741b51",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_edd71f19-661d-329d-b670-acc542da486a",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_f96d91a2-77ed-362e-b5b3-ddb083af0dd8",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_fbba8d12-bc4a-36a9-af7f-989505c61e20",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  },
+	  {
+		"errors": [
+		  {
+			"code": 906,
+			"description": "PRIMITIVE_NO_GEOMETRY",
+			"id": "Feature has no geometry defined (or val3dity doesn't handle this type).",
+			"info": "",
+			"type": "Error"
+		  }
+		],
+		"id": "ID_fd58e327-74ba-3eb0-a013-0c6ec0b3dcf3",
+		"primitives": null,
+		"type": "Road",
+		"validity": false
+	  }
+	],
+	"features_overview": [
+	  {
+		"total": 100,
+		"type": "Road",
+		"valid": 33
+	  }
+	],
+	"input_file": "tmp/6d/6dacec33-fcb5-481e-8e02-ebfda493bef0/input_city.0.json",
+	"input_file_type": "CityJSON",
+	"parameters": {
+	  "overlap_tol": -1,
+	  "planarity_d2p_tol": 0.01,
+	  "planarity_n_tol": 20,
+	  "snap_tol": 0.001
+	},
+	"primitives_overview": [
+	  {
+		"total": 54,
+		"type": "MultiSurface",
+		"valid": 33
+	  }
+	],
+	"time": "Fri Jul  4 07:48:00 2025 UTC",
+	"type": "val3dity_report",
+	"val3dity_version": "2.4.0",
+	"validity": false
+}
