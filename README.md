@@ -1,6 +1,6 @@
 # CHEK GIS Validator – BIMserver Connector
 
-This web interface connects a user's **BIMserver.center** account to the **CHEK model validator** to check CityJSON files for completeness and geometric validity.
+This web interface connects a user's **BIMserver.center** account to the **CHEK model validator** to check CityJSON files for completeness and geometric validity ([live demo here](https://abdoulayediak.github.io/chek-bimserver-gis-validator/)).
 
 ---
 
